@@ -1,0 +1,1 @@
+python main.py --output_dir ./results -c config/cfg_surgcount_vit_b.py --datasets config/datasets_surgcount.json --pretrain_model_path checkpoints/groundingdino_swinb_cogcoor.pth --options text_encoder_type=checkpoints/bert-base-uncased >>./training.log 2>&1 &

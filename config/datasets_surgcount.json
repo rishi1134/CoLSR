@@ -1,0 +1,26 @@
+{
+  "train": [
+    {
+      "root": "./surgcount-hd/train",
+      "anno": "/path/to/train/odvg/ann/handle_train_odvg_exemplars.jsonl",
+      "label_map": "/path/to/train_label_map.json",
+      "dataset_mode": "odvg"
+    }
+  ],
+  "test": [
+    {
+      "root": "./surgcount-hd/val",
+      "anno": "/path/to/val/coco/ann/handle_val_coco.json",
+      "label_map": null,
+      "dataset_mode": "coco"
+    }
+  ],
+  "val": [
+    {
+      "root": "./surgcount-hd/test",
+      "anno": "./data/surgcount-hd/handle_coco/surgcount_hd_test_coco.json",
+      "label_map": null,
+      "dataset_mode": "coco"
+    }
+  ]
+}

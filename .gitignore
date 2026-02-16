@@ -1,0 +1,11 @@
+*.Identifier
+__pycache__
+*.tar
+gdino_train/
+gdino_train_debug/
+gdino_train_focalloss/
+gdino_train_fscbest/
+gdino_train_neigh/
+gdino_train_neighslope/
+gdino_train_scaledneighslope/
+wandb/
